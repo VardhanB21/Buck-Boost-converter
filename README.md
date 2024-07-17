@@ -2,7 +2,9 @@
 
 ## Project Overview
 
-This project involves the design and implementation of a Buck Boost Converter. The Buck Boost Converter is essential in power electronics for converting a DC voltage to either a higher or lower voltage level. This project is conducted by Batch E1 – B6.
+This project involves the design and implementation of a Buck Boost Converter. The Buck Boost Converter is essential in power electronics for converting a DC voltage to either a higher or lower voltage level.
+
+![Buck Boost Converter Diagram](converterphoto.png)
 
 ## Team Members
 
