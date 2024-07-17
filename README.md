@@ -4,7 +4,10 @@
 
 This project involves the design and implementation of a Buck Boost Converter. The Buck Boost Converter is essential in power electronics for converting a DC voltage to either a higher or lower voltage level.
 
-![Buck Boost Converter Diagram](converterphoto.png)
+<p align="center">
+  <img src="converterphoto.png" alt="Buck Boost Converter Diagram" width="300" height="200" style="margin: 20px; border: 2px solid black;">
+  <img src="gatedriverphoto.png" alt="Gate Driver" width="300" height="200" style="margin: 20px; border: 2px solid black;">
+</p>
 
 ## Team Members
 
@@ -53,12 +56,21 @@ DCM occurs when the current through the inductor falls to zero during part of th
 ## Waveforms and Analysis
 
 ### Waveforms in CCM
-- **Switch Current**: Observe the current waveform through the MOSFET switch.
-- **Diode Voltage**: Observe the voltage waveform across the diode.
+- **Gate Pulses (Yellow)**: Observe the gate pulse waveform.
+  <p align="center">
+    <img src="waveform1.png" alt="Gate Pulses in CCM" width="300" height="200" style="margin: 20px; border: 2px solid black;">
+  </p>
+- **MOSFET Current (Blue)**: Observe the current waveform through the MOSFET switch.
+  <p align="center">
+    <img src="waveform1.png" alt="MOSFET Current in CCM" width="300" height="200" style="margin: 20px; border: 2px solid black;">
+  </p>
 
 ### Waveforms in DCM
 - Increase the load resistance to demonstrate DCM.
 - **MOSFET Current Waveform**: Observe the intermittent current flow through the MOSFET.
+  <p align="center">
+    <img src="waveform2.png" alt="Waveforms in DCM" width="300" height="200" style="margin: 20px; border: 2px solid black;">
+  </p>
 
 ## Results and Discussion
 
@@ -68,10 +80,6 @@ DCM occurs when the current through the inductor falls to zero during part of th
 ## Conclusion
 
 The Buck Boost Converter successfully meets the specified input and output voltage ranges, switching frequency, and output current. The waveforms observed in both CCM and DCM confirm the expected behavior of the converter under different load conditions.
-
-## References
-
-Include any references or textbooks that were used for the project design and implementation.
 
 ## Contact Information
 
